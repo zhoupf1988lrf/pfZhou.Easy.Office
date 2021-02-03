@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>pfZhou.Easy.Office.Services</AssemblyName>
+    <RootNamespace>pfZhou.Easy.Office.Services</RootNamespace>
+    <LangVersion>preview</LangVersion>
+    <Authors>pfZhou</Authors>
+    <Product>pfZhou.Easy.Office</Product>
+    <PackageId>pfZhou.Easy.Office</PackageId>
+    <Copyright>周鹏飞版权所有</Copyright>
+    <Description>1 Excel的自定义导出（支持一级表头和二级的复杂表头），自定义导出的列，开发人员可以自己去实现指定接口，替换自己的要求
+2 Excel数据导出，全程通过Aop面向切面编程方式，开发人员只需要去配置特性即可。目前支持的特性：日期、必填、范围、正则、最大长度、重复、数据库表数据的外键、数据库表数据是否重复。开发人员可以自己去实现指定接口，替换自己的要求</Description>
+    <PackageIcon>logo.png</PackageIcon>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NPOI" Version="2.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pfZhou.Easy.Office.IServices\IServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

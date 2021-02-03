@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs
+/pfZhou.Easy.Office.Core/bin/Debug/netstandard2.0
+/pfZhou.Easy.Office.Core/obj
+/pfZhou.Easy.Office.Entities/obj
+/pfZhou.Easy.Office.Entities/bin/Debug/netstandard2.0
+/pfZhou.Easy.Office.IServices/obj
+/pfZhou.Easy.Office.IServices/bin/Debug/netstandard2.0
+/pfZhou.Easy.Office.Models/obj
+/pfZhou.Easy.Office.Models/Models.csproj.user
+/pfZhou.Easy.Office.Models/bin/Debug/netstandard2.0
+/pfZhou.Easy.Office.Services/obj
+/pfZhou.Easy.Office.Services/bin/Debug
