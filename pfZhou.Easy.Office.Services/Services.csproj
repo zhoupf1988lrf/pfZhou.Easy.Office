@@ -7,12 +7,14 @@
     <LangVersion>preview</LangVersion>
     <Authors>pfZhou</Authors>
     <Product>pfZhou.Easy.Office</Product>
-    <PackageId>pfZhou.Easy.Office</PackageId>
+    <PackageId>pfZhou.Easy.Office.Services</PackageId>
     <Copyright>周鹏飞版权所有</Copyright>
     <Description>1 Excel的自定义导出（支持一级表头和二级的复杂表头），自定义导出的列，开发人员可以自己去实现指定接口，替换自己的要求
 2 Excel数据导出，全程通过Aop面向切面编程方式，开发人员只需要去配置特性即可。目前支持的特性：日期、必填、范围、正则、最大长度、重复、数据库表数据的外键、数据库表数据是否重复。开发人员可以自己去实现指定接口，替换自己的要求</Description>
     <PackageIcon>logo.png</PackageIcon>
-    <Version>1.0.1</Version>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/zhoupf1988lrf/pfZhou.Easy.Office.git</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
